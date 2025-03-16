@@ -129,7 +129,5 @@ def main():
         lcd.message(str(i))
         i +=1
         sleep(0.1)
-        if i == 20:
-            break
     # Não escreva nenhum código depois do while True!
     # O loop infinito segura o programa, então nada aqui embaixo vai rodar.

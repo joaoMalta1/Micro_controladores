@@ -36,7 +36,7 @@ def main():
     # O comando player.pause() também serve para voltar a tocar a música
     
     # CHAME O PAUSE NOVAMENTE ABAIXO, PARA COMEÇAR A TOCAR
-    
+    player.pause()
     
     
     
@@ -56,7 +56,7 @@ def main():
     
     # CALCULE E IMPRIMA QUANTOS MINUTOS E SEGUNDOS A MÚSICA TEM (EX: "2:43")
     # DICA: USE A DIVISÃO INTEIRA DE PYTHON (OU ARREDONDAMENTO) E O RESTO DE DIVISÃO %
-    
+    print("%d:%d",(duracao_em_segundos // 60, duracao_em_segundos % 60))
     
     
     
