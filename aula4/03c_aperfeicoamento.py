@@ -1,5 +1,3 @@
-# COMECE COPIANDO AQUI O SEU CÓDIGO DA IMPLEMENTAÇÃO
-# DEPOIS FAÇA OS NOVOS RECURSOS
 # importação de bibliotecas
 from gpiozero import Buzzer
 from gpiozero import Button

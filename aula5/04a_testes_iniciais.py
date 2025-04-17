@@ -9,11 +9,12 @@ from gpiozero import LED
 
 # parâmetros iniciais do Telegram
 lcd = Adafruit_CharLCD(2, 3, 4, 5, 6, 7, 16, 2)
-
 chave = "7695750620:AAEZgi2RXfmW1B__B-_VhBD8FM35Favtp78"
 id_da_conversa = "6244360043"
 endereco_base = "https://api.telegram.org/bot" + chave
 
+
+# definição de funções
 def exibe_texto():
     lcd.clear()
     lcd.message("Gravando...")
@@ -35,8 +36,8 @@ def mensagem():
         print(x.text)
     except Exception as e:
         print(e)
-        
 
+# criação de componentes
 led1 = LED(21)
 botao1 = Button(11)
 botao1.when_pressed = exibe_texto
@@ -44,9 +45,3 @@ botao2 = Button(12)
 botao2.when_pressed = foto
 botao3 = Button(13)
 botao3.when_pressed = mensagem
-
-# definição de funções
-
-
-# criação de componentes
-

@@ -39,6 +39,3 @@ sensor.when_in_range = pisca
 sensor.when_out_of_range = pisca
 botao1.when_pressed = toca
 botao2.when_pressed = calcula_distancia
-
-
-    

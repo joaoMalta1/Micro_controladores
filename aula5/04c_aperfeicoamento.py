@@ -1,5 +1,3 @@
-# COMECE COPIANDO AQUI O SEU CÓDIGO DA IMPLEMENTAÇÃO
-# DEPOIS FAÇA OS NOVOS RECURSOS
 # importação de bibliotecas
 from os import system
 from Adafruit_CharLCD import Adafruit_CharLCD
@@ -70,13 +68,11 @@ def parar_gravacao():
         aplicativo = None
     system("opusenc audio.wav audio.ogg")
 
-time = 0
 def start_time():
     global time
     print("inicio contagem do tempo")
     time = datetime.now()
     print(time)
-    
 
 def alerta():
     print("saiu")
@@ -89,11 +85,11 @@ def alerta():
             print(x.text)
         except Exception as e:
             print(e)
- # faz outras coisas no código
-     
+
 # criação de componentes
 global aplicativo
 aplicativo = None
+time = 0
 
 led1 = LED(21)
 botao1 = Button(11)

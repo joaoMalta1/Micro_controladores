@@ -41,16 +41,11 @@ def coletar_digitos(string):
                 texto = texto + codigo[-1]
             elif codigo[-1] == "K":
                 return texto
-        
-            
-   
+
 # criação de componentes
 lcd = Adafruit_CharLCD(2, 3, 4, 5, 6, 7, 16, 2)
 init("aula", blocking=False)
 print(retornar_nome_do_morador("101","101001"))
-#coletar_digitos("string")
-
-#print(coletar_digitos("string"))
 
 # loop infinito
 while True:

@@ -69,9 +69,5 @@ while True:
                 led1.on()
             elif texto == "Soar Alarme":
                 buzzer.beep(n=5, on_time = 0.2)
-                
-        
-        
-        # depois baixa o arquivo e faz algo com ele
         proximo_id_de_update = resultado["update_id"] + 1
     time.sleep(1)
